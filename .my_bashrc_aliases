@@ -1,0 +1,16 @@
+# aldev vm aliases
+alias aldev-connect="VBoxManage startvm "aldev" --type=headless ; ssh aldev"
+alias aldev-shutdown="VBoxManage controlvm "aldev" acpipowerbutton"
+
+
+# cisco anyconnect cli aliases
+alias alvpn-disconnect="/opt/cisco/anyconnect/bin/vpn disconnect"
+alias alvpn-status="/opt/cisco/anyconnect/bin/vpn status"
+
+
+# kpcli aliases
+alias kp="kpcli --kdb '$HOME/Google Drive/private/PasswordDatabase.kdbx' --pwfile '$HOME/kpmp'"
+
+
+# emacs aliases
+alias ec='emacsclient -nw "$@"'

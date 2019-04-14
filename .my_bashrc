@@ -1,0 +1,11 @@
+export PATH="/usr/local/sbin:$HOME/bin:$PATH"
+export PS1="\[\033[38;5;76m\]\u@\h\[$(tput sgr0)\]\[\033[38;5;15m\]:\W\\$ \[$(tput sgr0)\]"
+
+# re-enable Ctrl-s for forward-history-search
+stty stop ''
+
+. $HOME/.my_bashrc_completion
+. $HOME/.my_bashrc_aliases
+
+# activate default erlang
+. $HOME/erlang/20.3/activate

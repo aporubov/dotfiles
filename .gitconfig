@@ -1,0 +1,12 @@
+[core]
+    editor = emacs
+[user]
+    name = Andrey Porubov
+    email = andrew.porubov@gmail.com
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[alias]
+    l = log --graph --oneline --decorate --branches --remotes --tags

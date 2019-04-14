@@ -1,0 +1,8 @@
+# brew bash completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+# kerl completion
+. $HOME/.bash_kerl_completion
+# awscli completion
+complete -C `which aws_completer` aws
