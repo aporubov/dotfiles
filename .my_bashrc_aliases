@@ -9,7 +9,7 @@ alias alvpn-status="/opt/cisco/anyconnect/bin/vpn status"
 
 
 # kpcli aliases
-alias kp="kpcli --kdb '$HOME/Google Drive/private/PasswordDatabase.kdbx' --pwfile '$HOME/kpmp'"
+alias kp="kpcli --kdb '$HOME/GDrive/private/PasswordDatabase.kdbx' --pwfile '$HOME/.kpmp'"
 
 
 # emacs aliases
