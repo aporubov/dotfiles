@@ -10,3 +10,5 @@
     status = auto
 [alias]
     l = log --graph --oneline --decorate --branches --remotes --tags
+[pull]
+	ff = only
