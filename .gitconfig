@@ -1,8 +1,8 @@
 [core]
     editor = emacs
 [user]
-    name = Andrey Porubov
-    email = andrew.porubov@gmail.com
+    name = aporubov
+    email = aporubov@gmail.com
 [color]
     branch = auto
     diff = auto
